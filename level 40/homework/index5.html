@@ -1,0 +1,102 @@
+<!-- 5) შექმენით singlepage ვებგვერდი თქვენს ცხოველებზე, გამოიყენეთ სათაურები, პარაგრაფები, სურათები, ნავიგაცია, ფორმები,
+drop-down მენიუები, section-ები და ღილაკები, სურათს გაუწერეთ 2px ზომის წითელი ზღვარი, პარაგრაფები გახადეთ 22px ზომის,
+იასამნისფერი ტექსტის ფერი, მწვანე ფონის ფერით, 1px სისქის წითელი ზღვარით და ყველა პარაგრაფი იყოს ჰორიზონტალური სხივის
+შუაში, სათაურები იყოს ლურჯი ფერის, 56px ზომის და ყოველთვის იყოს შუაში - ცენტრში, უკანა ფონის ფერი ჰქონდეთ ყვითელი, ყველა
+ღილაკი იყოს 12px ზომის, წითელი ფერის, ვარდისფერი ფონის ფერის, და ჰქონდეთ 2px ყავისფერი ძღვარი. ყველა სხვა ელემენტები:
+ნავიგაცია, ფორმები, drop-down მენიუები, section-ები გასტილეთ თქვენი სურვილისამებრ, როგორც მოგეწონებათ ისე. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: rgb(255, 205, 210)">
+    <header>
+        <h1
+            style="color: rgb(255, 240, 250); background-color: rgb(255, 125, 225); font-size: 40px; text-align: center; border: 5px dashed rgb(237, 0, 182);">
+            Animals</h1>
+        <p style="font-size: 20px; color: rgb(242, 0, 189); text-align: center;">About my favorite animals</p>
+    </header>
+
+    <nav>
+        <ul style="font-size: 25px;">
+            <li style="color: rgb(148, 1, 72);"><a href="#tiger" style="color: rgb(148, 1, 72);">Tiger</a></li>
+            <li style="color: rgb(73, 0, 128);"><a href="#horse" style="color: rgb(73, 0, 128);">Horse</a></li>
+            <li style="color: rgb(143, 75, 143);"><a href="#snake" style="color: rgb(143, 75, 143);">Snake</a></li>
+        </ul>
+    </nav>
+
+
+    <label for="animals" style="font-size: 25px; color: rgb(255, 233, 250); background-color: rgb(210, 69, 163);">Choose
+        animal: </label>
+    <select name="animals" id="animals"
+        style="font-size: 20px; color: rgb(255, 229, 233); background-color: rgb(228, 102, 190); border: 2px solid rgb(158, 0, 121); margin: 10px;"
+        required>
+        <option value="tiger">Tiger</option>
+        <option value="horse">Horse</option>
+        <option value="snake">Snake</option>
+    </select>
+
+    <main>
+        <section id="tiger">
+            <h2
+                style="color: rgb(148, 1, 72); background-color: antiquewhite; font-size: 35px; text-align: center; border: 4px solid rgb(177, 0, 109);">
+                Tiger</h2>
+            <p
+                style="color: rgb(255, 255, 255); font-size: 20px; background-color: rgba(214, 42, 113, 0.423); text-align: center;">
+                The tiger is one of the strongest and most fearless predators in the wild. Its strength and beauty are
+                amazing.</p>
+            <img src="ვეფხვვ.jpg" alt="ვეფხვი"
+                style="width: 400px; border: 7px dashed rgb(171, 24, 103); display: block; margin: 0 auto;">
+        </section><br><br>
+        <hr>
+
+
+        <section id="horse">
+            <h2
+                style="color: rgb(104, 12, 175); background-color: rgb(252, 241, 227); font-size: 35px; text-align: center; border: 4px solid rgb(158, 11, 161);">
+                Horse</h2>
+            <p
+                style="color: rgb(255, 255, 255); font-size: 20px; background-color: rgba(97, 0, 139, 0.549); text-align: center;">
+                Horses are symbols of beauty and freedom. Their speed and grace are truly impressive.</p>
+            <img src="ცხენნ.jpg" alt="ცხენი"
+                style="width: 500px; border: 7px dashed rgb(90, 54, 108); display: block; margin: 0 auto;">
+        </section><br><br>
+        <hr>
+
+
+        <section id="snake">
+            <h2
+                style="color: rgb(143, 75, 143); background-color: antiquewhite; font-size: 35px; text-align: center; border: 4px solid rgb(185, 99, 185);">
+                Snake</h2>
+            <p
+                style="color: rgb(255, 237, 251); font-size: 20px; background-color: rgba(143, 75, 143, 0.427); text-align: center;">
+                Snakes are mysterious and fascinating creatures. Their movements are graceful and mesmerizing.</p>
+            <img src="გველლ.jpg" alt="გველი"
+                style="width: 400px; border: 7px dashed rgb(181, 117, 210); display: block; margin: 0 auto;">
+        </section>
+
+
+        <button
+            style="color: rgb(255, 225, 254); background-color: rgba(177, 81, 255, 0.536); border: 4px dotted rgb(136, 0, 221); border-radius: 10px; font-size: 25px;">
+            Learn More
+        </button><br><br>
+
+        <button
+            style="color: rgb(255, 225, 248); background-color: rgba(164, 0, 161, 0.573); border: 4px dotted rgb(255, 183, 232); border-radius: 10px; font-size: 25px;">
+            My other favorite animals
+        </button>
+    </main><br>
+
+    <footer>
+        <p style="color: rgb(106, 9, 139);">&copy; 2025 animals</p>
+    </footer>
+
+</body>
+
+</html>
