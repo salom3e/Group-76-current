@@ -1,0 +1,125 @@
+5. თქვენი სიტყვებით ახსენით რას აკეთებს გავლილი მასალიდან ყველა შესწავლილი სიის და სტრინგის ფუნქციები და for ციკლი.
+
+
+string functions: 
+
+.lower() - აპატარავებს ასოს. არ გადაეცემა არგუმენტი.
+
+name = "salome"
+print(name.lower())
+
+Name = "sandro"
+lowered = Name.lower()
+print(lowered)
+
+
+.upper() - პირიქით
+
+surname = "luka"
+upperred = surname.upper()
+print(upperred)
+
+
+
+.capitalize() - სტრინგის პირველ ასოს ადიდებს
+
+name = "salome"
+capitalized = name.capitalize()
+print(capitalized)
+
+
+.find() - მარტო ამას გადაეცემა არგუმენტები (ყველა ფუნქციას არგუმენტი გადაეცემა ფრჩხილებში). პოულობს არგუმენტად გადაცემული
+ასოს იდექსს.
+
+name = "gigi"
+found = name.find("g")
+print(found)
+
+
+list functions: 
+
+.append() - სიის ამ ფუნქციას აუცილებლად ეძლევა არგუმენტი და არგუმენტად მიწვდილი მნიშვნელობა დაემატება სიას ბოლოში. 
+
+მაგალითად:  
+list = [2, 4, "lala" True]
+list.append("pizza")
+print(list) 
+--> list = [2, 4, "lala", True, "pizza"]
+
+
+.insert() - ამ ფუნქციას ეძლევა 2 არგუმენტი: პირველ არგუმენტად ის ინდექსი, რომელზეც გვინდა რომ ჩავამატოთ მნიშვნელობა,
+ხოლო მეორე არგუმენტად - მნიშვნელობა, რაც უნდა ჩავამატოთ ამ ინდექსზე.
+
+მაგ: 
+list = [2, 4, "lala" True]
+list.insert(2, "pizza")
+print(list) 
+--> list = [2, 4, "pizza", "lala", True]
+
+
+.pop() - ამ ფუნქციაში არგუმენტად ჩავწერთ იმ ინდექსს, რომელზე მყოფი ელემენტის "ამოგდება", ანუ ამოშლაც გვინდა სიიდან.
+
+მაგ:
+list = [2, 4, "lala" True]
+list.pop(3)
+print(list) 
+--> list = [2, 4, "lala"]
+
+
+.remove() - სიის ამ ფუნქციას კი არგუმენტად თვითონ იმ ელენეტს ვაწვდით, რომლის ამოშლაც გვინდა. ანუ ინდექსის მაგივრად 
+თავად ელემენტს ვწერთ. 
+
+მაგ:
+list = [2, 4, "lala" True]
+list.remove("lala")
+print(list) 
+--> list = [2, 4, True]
+
+
+extend() - სიის გაერთიანება
+აერთიანებს 2 სიას
+
+name = ["salome", "qeti", "anano", "taso", "tina"]
+nums = [4, 55, 6, 67, 26]
+name.extend(nums)
+print(name)
+
+
+nums.extend(name)
+print(nums)
+
+# ჯერ ვწერთ იმ ცვლადის სახელს, რომელშიც უნდა გაერთიანდეს, ხოლო extend-ს ეძლევა არგუმენტად იმ ცვლადის სახელი, რომელიც
+# პირველ ცვლადშ უნდა გაერთანდეს
+
+
+clear() - შლის ყველა ელემენტს სიიდან
+
+list = ["rara", "lala", "baba", "papa"]
+list.clear()
+print(list)
+
+
+index() - გვიბრუნებს არგუმენტად გადაცემული ელემენტის ინდექსს.
+
+name = ["salome", "qeti", "anano", "taso", "tina", "qeti"]
+name.remove("qeti")
+print(name.index("taso"))
+
+
+
+count() - ითვლის ფრჩხილებში გადაცემული ელემენტის რაოდენობას სიაში.
+
+name = ["salome", "qeti", "anano", "taso", "tina", "qeti"]
+print(name.count("qeti"))
+
+
+reverse() - ატრიალებს სიას უკუღმა
+
+name = ["salome", "qeti", "anano", "taso", "tina", "qeti"]
+name.reverse()
+print(name)
+
+
+
+for ციკლი საშუალებას გვაძლევს განახორციელოთ ერთი და იგივე მოქმედება სიაზე, სტრინგზე ან სხვა მონაცემზე, 
+თითო ელემენტისთვის ცალ-ცალკე.
