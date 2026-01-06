@@ -3,4 +3,33 @@
 # ყველა "+" ნიშანი, ხოლო თუ მინუსების რაოდენობა სიაში არის კენტი, წაშალე ყველა "-" ნიშანი. "+" და "-" -ების თავიდან 
 # სიაში ჩასაგდებად გამოიყენეთ for ციკლი, ხოლო "+" ან "-" -ების წასაშლელად გამოიყენეთ while ციკლი.
 
+word = "Skins"
+empty = []
+
+for i in word:
+    if i == i.lower():
+        empty.append("+")
+    elif i == i.upper():
+        empty.append("-")
+    
+minus = empty.count("-")
+
+# i = 0
+# if minus % 2 == 0:
+#     while i < len(empty):
+#         if empty[i] == "+":
+#             empty.pop(i)
+#         else:
+#             i += 1
+# else:
+#     while i < len(empty):
+#         if empty[i] == "-":
+#             empty.pop(i)
+#         else:
+#             i += 1
+
+# print(empty)
+
+
+
 # ვერ გავიგე

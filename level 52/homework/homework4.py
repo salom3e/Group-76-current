@@ -11,3 +11,13 @@ while i < len(cities):
         cities[i] = cities[i].upper()
         i += 1                           
 print(cities)
+
+
+
+# while i < len(cities):
+#     if cities[i] == cities[i].upper():
+#         cities.pop(i)
+#     else:
+#         cities[i] = cities[i].upper()
+#         i += 1
+# print(cities)
