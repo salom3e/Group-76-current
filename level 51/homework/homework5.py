@@ -1,13 +1,6 @@
 # 5) შექმენით რიცხვებით სავსე სია, გამოითვალეთ რიცხვების საშუალო არითმეტიკული - რიცხვების ჯამი გაყოფილი რიცხვების რაოდენობაზე.
 
 nums = [2, 4, 5, 7, 6, 8, 10, 26, 2, 5, 2]
-# sum = 0
-
-# for i in nums:
-#     sum += nums
-
-# average = sum / len(nums)
-# print(average)
 
 average = sum(nums) / len(nums)
 print(average)
