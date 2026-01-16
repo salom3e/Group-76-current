@@ -3,4 +3,15 @@
 
 sentence = "khinkali is very delicious"
 words = []
+word = ""
+
+for i in sentence:
+    if i != " ":
+        word += i
+    else:
+        words.append(word)
+        word = ""
+words.append(word)
+
+print(words)
 

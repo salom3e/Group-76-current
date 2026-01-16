@@ -1,0 +1,38 @@
+5. გადახედეთ CSS-ით გასტილვის სამივე მეთოდს, ახსენით სამივე და მოიყვანეთ სათითაო მაგალითები.
+
+Inline CSS - ინლაინ სიესესით გასტილვისას, ელემენტის გამხსნელ თეგში ვწერთ style="" ატრიბუტს და მასში უკვე სტილებს, ანუ 
+property-სა და value-ს. მაგ:
+
+<p style="property: value; text-align: center; font-size: 26px; color: purple;">paragraph</p>
+
+
+Internal CSS - ინტერნალ სიესესით როცა ვსტილავთ, head თეგში ვწერთ <style></style> ელემენტს, მასში ვწერთ იმ თეგს, რომლის გაფორმებაც
+გვინდა და შემდეგ {აქ ვწერთ property: value;-ს}. მაგ:
+
+<head>
+    <style>
+        body {color: cyan; background-color: black;}
+        p {font-size: 20px; color: white;}
+    </style>
+</head>
+
+
+External CSS - ექსტერნალ სიესესისთვის ვქმნით html და css ფაილებს, ანუ მაგალითად: index.html, index.css. ამ ფაილებს ერთმანეთთან
+აუცილებლად ვაკავშირებთ <link rel="stylesheet" href="index.css"> ელემენტითა და ატრიბუტებით. ამ ელემენტს ვათავსებთ html ფაილის head
+თეგში და href=""-ში ვწერთ css ფაილის სახელს. თვითონ css ფაილში კი ვწერთ იმ თეგის სახელს, რომლის გაფორმებაც გვინდა და 
+{
+    აქ ვწერთ property: value;
+}
+
+მაგ:
+
+*index.html*
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+*index.css*
+p {
+    color: pink;
+    font-size: purple;
+}

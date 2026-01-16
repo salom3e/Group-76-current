@@ -14,22 +14,4 @@ for i in word:
     
 minus = empty.count("-")
 
-# i = 0
 # if minus % 2 == 0:
-#     while i < len(empty):
-#         if empty[i] == "+":
-#             empty.pop(i)
-#         else:
-#             i += 1
-# else:
-#     while i < len(empty):
-#         if empty[i] == "-":
-#             empty.pop(i)
-#         else:
-#             i += 1
-
-# print(empty)
-
-
-
-# ვერ გავიგე

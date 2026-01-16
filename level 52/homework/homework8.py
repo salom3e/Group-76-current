@@ -2,12 +2,8 @@
 # დაპრინტეთ საბოლოო სტრინგი.
 
 word = "sacivi"
-reversed = " "
+reverse = ""
 
 for i in word:
-    reversed = i.upper() + reversed 
-print(reversed)
-
-
-
-# ??
+    reverse = i.upper() + reverse
+print(reverse)
