@@ -34,3 +34,14 @@
 # name = "gigi"
 # found = name.find("g")
 # print(found)
+
+
+# split.() - ხლიჩავს სტრინგს და აუცილებლად გადაჰყავს სიაში. 
+
+# sentence = "unda vwamot wavedit"
+
+# sentence.split() --> sentence.split(" ") - ფრჩხილებში იგულისხმება სფეისი, თუ მნიშვნელობა ჩვენით არ გადავეცით, ამიტომ 
+# სფეისი სადაც შეხვდება, გაწყვეტს და სფეისამდე გავლილ ასოებს ჩაამატებს სიაში, როგორც სიის ელემენტი. 
+
+# sentence = "unda vwamot wavedit"
+# print(sentence.split())
