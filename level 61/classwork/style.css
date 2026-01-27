@@ -1,0 +1,42 @@
+/* 1) შექმენით 5 პარაგტაფი ,თქვენი დავალებაა რომ 5 ივე პარაგრაფს მიანჭოთ ერთმანეთსგან განსხვავებული სტილები,გამოიყენეთ id
+ატრიბუტი */
+
+#fame1 {
+    color: cyan;
+    font-size: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#fame2 {
+    color: pink;
+    font-size: 10px;
+    border: 2px solid white;
+    background-color: purple;
+    text-align: center;
+}
+
+#fame3 {
+    color: rgb(24, 24, 109);
+    font-size: 15px;
+    border: 1px dashed rgb(82, 108, 161);
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+#fame4 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 3px dashed rgb(99, 7, 32);
+    background-color: wheat;
+    text-align: center;
+}
+
+#fame5 {
+    color: rgb(223, 188, 161);
+    font-size: 25px;
+    border: 3px solid rgb(70, 32, 14);
+    background-color: rgb(80, 50, 13);
+    text-align: center;
+}
