@@ -1,0 +1,13 @@
+/* 5) შექმენით ორი <div> და ორივეში მოათავსე რაიმე ტექსტები.
+მიანიჭეთ ID ები დივებს და CSS-ში შეუცვალეთ ფონის ფერი ამ დივებს.  */
+
+#music1 {
+    color: bisque;
+    background-color: black;
+    font-size: 20px;
+}
+
+#music2 {
+    background-color: bisque;
+    font-size: 20px;
+}

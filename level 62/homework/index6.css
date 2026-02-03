@@ -1,0 +1,43 @@
+/* 7) შექმენით 1 dropdown მენიუ,სადაც იქნება 5 ქვეყნის სახელი ჩამოთვლილი,თითოეულ option ს მიეცი
+სხვადასხვა id და გასტილე განსხვავებულად ყველა ელემენტი */
+
+
+#country1 {
+    font-size: 30px;
+    color: rgb(208, 12, 12);
+    background-color: whitesmoke;
+    border: 4px solid rgb(200, 22, 22);
+    text-align: center;
+}
+
+#country2 {
+    font-size: 31px;
+    color: rgb(121, 20, 20);
+    background-color: rgb(22, 22, 107);
+    border: 3px dashed rgb(118, 31, 31);
+    text-align: left;
+}
+
+#country3 {
+    font-size: 32px;
+    color: rgb(17, 121, 17);
+    background-color: rgb(255, 255, 240);
+    border: 4px solid rgb(169, 24, 24);
+    text-align: right;
+}
+
+#country4 {
+    font-size: 33px;
+    color: black;
+    background-color: rgb(255, 255, 36);
+    border: 4px solid rgb(167, 20, 20);
+    text-align: center;
+}
+
+#country5 {
+    font-size: 34px;
+    color: rgb(150, 13, 13);
+    background-color: rgb(255, 255, 255);
+    border: 2px dotted rgba(191, 13, 13, 0.353);
+    text-align: center;
+}

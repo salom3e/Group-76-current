@@ -1,0 +1,27 @@
+/* 8) შექმენი 3 დივი, ამ სამივე დივში მოათავსე თითო თითო ღილაკები,შენი დავალებაა რომ ამ დივებს მისცე
+განსხვავებული id და მისცე განსხვავებული - სიმაღლე , სიგანე , უკანა ფონის ფერი
+
+ასევე ყველა ღილაკს მიწვდი მისი მშობელი ელემენტიდან(ღილაკებს id არ მისცეთ,მშობლიდან მიწვდით ) და
+ყველა ღლაკიც გასტილე განსხვავებულად */
+
+
+#button1 button {
+    color: bisque;
+    height: 20px;
+    width: 40px;
+    background-color: purple;
+}
+
+#button2 button {
+    color: rgb(129, 56, 198);
+    height: 40px;
+    width: 50px;
+    background-color: pink;
+}
+
+#button3 button {
+    color: antiquewhite;
+    height: 55px;
+    width: 60px;
+    background-color: blueviolet;
+}

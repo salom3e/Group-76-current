@@ -1,0 +1,42 @@
+/* 6) შექმენი დალაგებული სია სადაც შეიყვანთ 5 ავტომობილის სახელს]
+თქვენი დავალებაა 5 ივე ავტომობილის სახელს ქონდეს განსხვავებული სტილები,გამოიყენეთ ID ები  */
+
+#car1 {
+    color: black;
+    background-color: bisque;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid rgb(63, 37, 7);
+}
+
+#car2 {
+    color: rgb(0, 115, 255);
+    background-color: aliceblue;
+    font-size: 25px;
+    text-align: left;
+    border: 4px dashed rgb(8, 8, 85);
+}
+
+#car3 {
+    color: rgb(255, 255, 122);
+    background-color: purple;
+    font-size: 26px;
+    text-align: right;
+    border: 5px dotted wheat;
+}
+
+#car4 {
+    color: yellowgreen;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    border: 6px solid rgb(10, 67, 10);
+}
+
+#car5 {
+    color: rgb(94, 23, 23);
+    background-color: bisque;
+    font-size: 31px;
+    text-align: center;
+    border: 7px dashed rgb(40, 77, 12);
+}

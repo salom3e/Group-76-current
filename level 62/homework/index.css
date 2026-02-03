@@ -1,0 +1,14 @@
+/* 2) შექმენით <div> ელემენტი id-ით.
+CSS-ში ამ id-ზე გამოიყენეთ მინიმუმ 5 სხვადასხვა სტილი, მათ შორის:
+ფონი
+ტექსტის ფერი
+უკანა ფონის ფერი და სხვა */
+
+#xcx {
+    color: black;
+    background-color: rgb(132, 255, 0);
+    font-size: 30px;
+    text-align: center;
+    border: 5px dashed black;
+    font-weight: 900;
+}
