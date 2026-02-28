@@ -1,0 +1,19 @@
+/* 4) შექმენით section თეგი რომელშიც მოთავსებული იქნება ერთი h1 სათაური. ამ სექციას გაუწერეთ id და კლასიც. External CSS-ით
+ყველა ნასწავლი სტილები განსხვავებული მნიშვნელობებით მიანიჭეთ id-საც და კლასსაც, და ასევე h1-ს მიანიჭეთ ყველა ნასწავლი
+სტილების განსხვავებული მნიშვნელობები inline CSS-ის გამოყენებით. */
+
+#s {
+    color: rgb(234, 72, 72);
+    background-color: rgb(106, 147, 88);
+    font-size: 30px;
+    border: 2px dashed rgb(198, 198, 198);
+    text-align: center;
+}
+
+.section {
+    color: rgb(86, 25, 25);
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 4px dotted rgb(255, 255, 255);
+    text-align: left; 
+}

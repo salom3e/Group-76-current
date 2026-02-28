@@ -1,0 +1,43 @@
+/* 1)შექმენით ერთი პარაგრაფი
+
+ამ პარაგრაფს ქონდეს ზემოთ ქვემოთ და შუაში ტალღოვანი ხაზი
+
+რომელიც იქნება წითელი ფერის
+
+2)შექმენი სათაური რომელსაც ექნება გასმული შუაში ორმაგი ლურჯი ხაზი
+
+3)შექმენი სათაური რომელსაც ექნება ზემოთ წერტილოვანი მწვანე ხაზი 
+
+4) შექმენით სამი პარაგრაფი ,ერთი იყოს lowercase ერთი UPPERCASE და ერთი Capitalize */
+
+
+
+h1 {
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+    text-decoration-color: rgb(26, 54, 155);
+}
+
+h2 {
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(81, 165, 45);
+}
+
+p {
+    text-decoration-line: overline underline line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(161, 39, 39);
+}
+
+#p1 {
+    text-transform: lowercase;
+}
+
+#p2 {
+    text-transform: uppercase;
+}
+
+#p3 {
+    text-transform: capitalize;
+}

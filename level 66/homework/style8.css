@@ -1,0 +1,79 @@
+/* 8) შექმენით ორგვერდიანი საიტი სადაც იქნება ახსნილი HTML-ის და CSS-ის შექმნის და განვითარების ისტორია. გამოიყენეთ ახალი
+ნასწავლი მასალა - სპეციფიკურობა და RGB. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(175, 197, 212);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(90, 172, 185);
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 3px dashed rgb(19, 82, 138);
+}
+
+ul li, h1 {
+    color: rgb(7, 57, 74);
+}
+
+a {
+    color: rgb(19, 82, 138);
+}
+
+h2 {
+    color: rgb(175, 225, 236);
+}
+
+#html {
+    margin-bottom: 10px;
+}
+
+.header {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#sec1 {
+    background-color: rgb(35, 83, 96);
+    border: 2px solid rgb(210, 230, 233);
+    border-radius: 4px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+
+
+#sec2 {
+    background-color: rgb(35, 83, 96);
+    border: 2px solid rgb(210, 230, 233);
+    border-radius: 4px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+p {
+    margin-top: 15px;
+    color: rgb(209, 218, 225);
+}
+
+footer {
+    margin-left: 60px;
+}
+
+#footer {
+    color: rgb(26, 70, 102);
+}
+
+img {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 300px;
+}

@@ -1,0 +1,22 @@
+/* შექმენით 10 ღილაკი ვებსაიტზე
+
+ამ 10 ღილაკიდან პირველ 5 ღილაკს მიანიჭეთ შემდეგი სტილები - ფერი წითელი , ზომა 40px ,უკანა ფონი მწვანე , border 3px
+purple
+
+და დანარჩენ 5 ღლაკს მიანიჭეთ შემდეგი სტილები - ფერი სტაფილოსფერი , ზომა 20px ,უკანა ფონი იასამნისფერი , border საერთოდ
+არ ქონდეს */
+
+
+.btn {
+    color: rgb(129, 10, 10);
+    font-size: 40px;
+    background-color: rgb(7, 67, 7);
+    border: 3px solid purple;
+}
+
+.butn {
+    color: orange;
+    font-size: 20px;
+    background-color: rgb(120, 19, 120);
+    border: none;
+}

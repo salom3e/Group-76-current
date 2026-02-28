@@ -6,6 +6,28 @@
 
 # გამოიძახე ფუნქცია რამდენჯერმე რომ ნახო შენი ფუნქციის შედეგი რამდენჯერმე
 
+def say_my_name(name):
+    return "my name is " + name
+
+print(say_my_name((input("enter your name: "))))
+print(say_my_name((input("enter your name: "))))
+print(say_my_name((input("enter your name: "))))
+print(say_my_name((input("enter your name: "))))
+print(say_my_name((input("enter your name: "))))
+print(say_my_name((input("enter your name: "))))
+
+
+def say_my_name(name):
+    return name
+
+print(say_my_name("my name is salome"))
+print(say_my_name("my name is salome"))
+print(say_my_name("my name is salome"))
+print(say_my_name("my name is salome"))
+print(say_my_name("my name is salome"))
+print(say_my_name("my name is salome"))
+print(say_my_name("my name is salome"))
+
 
 def say_my_name():
     print("my name is Salome")

@@ -1,0 +1,87 @@
+.head {
+    color: rgb(20, 20, 150);
+    background-color: lightyellow;
+    border: 3px solid black;
+    font-size: 28px;
+    text-align: center;
+}
+
+#p1 {
+    color: red;
+    background: yellow;
+    border: 2px solid black;
+    font-size: 10px;
+    text-align: center;
+}
+
+#p2 {
+    color: blue;
+    background: pink;
+    border: 3px dashed green;
+    font-size: 27px;
+    text-align: center;
+}
+
+#p3 {
+    color: green;
+    background: lightgray;
+    border: 4px solid purple;
+    font-size: 28px;
+    text-align: center;
+}
+
+#p4 {
+    color: orange;
+    background: lightblue;
+    border: 2px dotted red;
+    font-size: 28px;
+    text-align: center;
+}
+
+#p5 {
+    color: purple;
+    background: beige;
+    border: 3px solid blue;
+    font-size: 28px;
+    text-align: center;
+}
+
+#p6 {
+    color: brown;
+    background: lightgreen;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+#p7 {
+    color: black;
+    background: lightpink;
+    border: 3px dashed orange;
+    font-size: 25px;
+    text-align: center;
+}
+
+#p8 {
+    color: white;
+    background: gray;
+    border: 2px solid yellow;
+    font-size: 18px;
+    text-align: center;
+}
+
+#p9 {
+    color: navy;
+    background: lavender;
+    border: 4px solid green;
+    font-size: 28px;
+    text-align: center;
+}
+
+#p10 {
+    color: darkred;
+    background: lightcyan;
+    border: 3px dotted black;
+    font-size: 20px;
+    text-align: center;
+}

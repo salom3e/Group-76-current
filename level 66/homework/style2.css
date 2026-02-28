@@ -1,0 +1,18 @@
+/* 2) შექმენი ერთი პარაგრაფი და მას გაუწერე ერთი id და ერთი კლასი, id-ს მიანიჭე ყველა ნასწავლი სტილები და კლასს მიანიჭე
+ყველა სტილები განსხვავებული მნიშვნელობებით. */
+
+#p {
+    color: rgb(0, 0, 0);
+    background-color: rgb(81, 255, 0);
+    font-size: 20px;
+    border: 2px dashed rgb(29, 65, 18);
+    text-align: center;
+}
+
+.par {
+    color: rgb(0, 200, 255);
+    background-color: rgb(145, 48, 138);
+    font-size: 20px;
+    border: 2px dashed rgb(99, 0, 238);
+    text-align: center;
+}

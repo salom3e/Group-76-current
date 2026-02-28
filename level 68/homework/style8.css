@@ -1,0 +1,39 @@
+/* მოიფიქრე 5 სხვადასხვა ტექსის დეკორაციის კომბინაციები თქვენი გემოვნებით */
+
+#p1 {
+    font-size: 30px;
+    text-decoration: overline dashed rgb(72, 255, 0);
+    text-shadow: 2px 3px 2px rgb(53, 111, 26);
+    background-color: rgb(216, 242, 115);
+
+}
+
+#p2 {
+    font-size: 30px;
+    text-decoration: line-through dashed rgb(120, 217, 255);
+    background-color: rgb(37, 66, 147);
+    color: rgb(41, 155, 242);
+}
+
+#p3 {
+    font-size: 30px;
+    text-decoration: underline overline dotted rgb(137, 22, 57);
+    text-shadow: 2px 3px 3px rgb(183, 159, 170);
+    color: rgb(255, 28, 115);
+    background-color: rgb(253, 239, 221);
+}
+
+#p4 {
+    font-size: 30px;
+    text-decoration: line-through double rgb(101, 134, 164);
+    color: rgb(240, 248, 255);
+    background-color: rgb(69, 107, 140);
+}
+
+#p5 {
+    font-size: 30px;
+    text-decoration: overline solid rgba(148, 116, 180, 0.901);
+    text-shadow: 2px 1px 3px rgb(156, 73, 163);
+    color: rgb(247, 216, 253);
+    background-color: rgb(88, 39, 109);
+}

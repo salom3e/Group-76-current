@@ -1,0 +1,15 @@
+.first {
+    color: black;
+    background: lightpink;
+    border: 2px dashed rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.last {
+    color: rgb(255, 0, 0);
+    background: rgb(19, 4, 4);
+    border: 3px dotted rgb(63, 14, 14);
+    font-size: 25px;
+    text-align: center;
+}

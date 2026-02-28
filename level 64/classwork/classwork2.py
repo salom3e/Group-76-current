@@ -8,6 +8,20 @@
 
 # სხვა შემთხვევაში --- ფუნქციამდ ააბრუნოს ==> "this number is odd"
 
+
+def check_even(num):
+    if num % 2 == 0:
+        return "this number is even"
+    else: 
+        return "this number is odd"
+    
+print(check_even(6))
+print(check_even(7))
+print(check_even(8))
+print(check_even(9))
+print(check_even(10))
+
+
 def check_even():
 
     num = 26
@@ -17,4 +31,3 @@ def check_even():
         return "this number is odd"
 
 print(check_even())
-    
