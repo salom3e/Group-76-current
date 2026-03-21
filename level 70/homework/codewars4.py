@@ -1,3 +1,7 @@
 # Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
 
-# ??
+def digitize(n):
+    arr = []
+    for i in str(n)[::-1]:
+        arr.append(int(i))
+    return arr
