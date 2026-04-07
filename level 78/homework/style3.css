@@ -1,0 +1,82 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    background: radial-gradient(circle, #000000, #220202);
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 3px 3px 10px rgba(118, 77, 77, 0.6);
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    color: #511414;
+}
+
+
+label {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(150, 131, 126);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    background-color: #000000;
+    color: white;
+    margin-top: 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: #330000;
+    border-color: orange;
+}
+
+button {
+    background-color: #640000;
+    color: #ffe3c9;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #520000;
+    padding: 12px 24px;
+}
+
+button:hover {
+    background: #F5A623;
+    color: #2C1E3A;
+    transform: scale(1.05);
+}
+
+
+button:active {
+    transform: scale(0.95);
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline dashed;
+}

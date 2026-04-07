@@ -1,0 +1,24 @@
+/* 3) შექმენით ერთი დაულაგებელი და ერთი დალაგებული სია, სადაც ორივე სიას განსხვავებული ნიშნულები/ნუმერაცია ექნება, და ორივე
+სია გასტილეთ სისქის, ზომის, ფერის, უკანა ფონის ფერის, საზღვრის, კალიგრაფიის კუთვნილებებით. */
+
+ul li {
+    list-style-type: square;
+    list-style-position: outside;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    border: 3px dashed rgb(245, 226, 117);
+    color: rgb(233, 217, 153);
+    font-family: sans-serif;
+}
+
+ol li {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(101, 55, 14);
+    border: 2px dotted rgb(250, 230, 206);
+    color: rgb(247, 224, 197);
+    font-family: Arial, Helvetica, sans-serif;
+}

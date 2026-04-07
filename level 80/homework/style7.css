@@ -1,0 +1,13 @@
+/* 7) შექმენით ერთი input, გაუწერეთ ზომა, ფერი, უკანა ფონის ფერი და საზღვარი თქვენი გემოვნების მიხედვით. ამ დივს მიანიჭეთ
+ოთხივე მხარეს განსხვავებული ფერის ბორდერები. */
+
+
+input {
+    font-size: 25px;
+    color: rgb(58, 141, 157);
+    background-color: rgb(245, 245, 245);
+    border-top: 10px solid rgb(244, 192, 200);
+    border-right: 10px solid rgb(158, 248, 248);
+    border-bottom: 10px solid rgb(134, 69, 159);
+    border-left: 10px solid rgb(255, 255, 144);
+}

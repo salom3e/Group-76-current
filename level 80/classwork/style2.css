@@ -1,0 +1,11 @@
+/* 2) შექმენი ღილაკი რომელსაც ექნება ოთხივე მხარეს განსხვავებული ფერის ბორდერი */
+
+button {
+    border-top: 15px solid rgb(141, 50, 141);
+    border-left: 20px solid rgb(172, 221, 221);
+    border-bottom: 16px solid rgb(207, 113, 144);
+    border-right: 21px solid rgb(129, 213, 129);
+    font-size: 25px;
+    color: rgb(236, 247, 232);
+    background-color: rgb(146, 173, 89);
+}

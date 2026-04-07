@@ -1,0 +1,26 @@
+input {
+    font-size: 14px;
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: 2px solid rgb(220, 220, 220);
+    font-family: sans-serif;
+    margin-left: 60px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 60px;
+    margin-top: 40px;
+    color: rgb(15, 170, 222);
+}
+
+button {
+    margin-left: 60px;
+    width: 258px;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: rgb(15, 181, 222);
+}

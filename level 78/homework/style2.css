@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    margin: 8px;
+    padding: 8px;
+    width: 220px;
+    border: 1px solid rgb(192, 192, 192);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+input[placeholder="Name"] {
+    margin-top: 40px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: #f6f6f6;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    width: 100px;
+    height: 35px;
+    transition: 0.3s;
+    font-family: sans-serif;
+}
+
+button:hover {
+    background-color: rgb(129, 129, 129);
+}
+
+button:active {
+    background-color: rgb(146, 146, 146);
+    transform: scale(1.1);
+}

@@ -1,0 +1,41 @@
+/* 3) შექმენი 4 ღილაკი ,ჩაწერე ოთხივეში რაიმე სიტყვა მაგ click
+
+პირველ ღილაკდ გაუწერე margin ისე რომ დაშორება ქონდეს ზემოდან და ქვემოდან 80px და გვერდებიდან 20px
+
+მეორე ღილაკს გაუწერე margin ისე რომ დაშორება ქონდეს ოთხივე მხრიდან 40px
+
+მესამე ღილაკს გაუწერე margin ისე რომ დაშორება ქონდეს , ზემოდან - 10px ,მარჯვიდან 60px , ქვემოდან 35px ,და მარცხნიდან 80px
+
+მეოთხე ღილაკს გაუწერე margin ისე რომ დაშორება ქონდეს მხოლოდ ქვემოდან 45px */
+
+
+#button1 {
+    margin: 80px 20px;
+    font-size: 25px;
+    color: rgb(130, 10, 10);
+    background-color: rgb(216, 216, 216);
+}
+
+
+#button2 {
+    margin: 40px;
+    font-size: 25px;
+    color: rgb(80, 199, 199);
+    background-color: rgb(21, 61, 84);
+}
+
+
+#button3 {
+    margin: 10px 60px 35px 80px;
+    font-size: 25px;
+    color: rgb(177, 180, 185);
+    background-color: rgb(36, 36, 36);
+}
+
+
+#button4 {
+    margin-bottom: 45px;
+    font-size: 25px;
+    color: rgb(91, 41, 161);
+    background-color: rgb(121, 195, 224);
+}

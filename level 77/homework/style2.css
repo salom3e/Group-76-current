@@ -1,0 +1,28 @@
+/* 2) შექმენით დაულაგებელი სია პროდუქტების შესახებ, სადაც ჩვეულებრივი ნიშნულების ნაცვლად გამოიყენებთ პატარა სურათს, და ამ
+სიას გაუწერეთ, font-family, ფერი, უკანა ფონის ფერი, საზღვარი, ზომა, სისქე და გაცენტრეთ. */
+
+ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(39, 26, 10);
+    color: rgb(232, 216, 191);
+    border: 3px dashed rgb(232, 216, 191);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#cake {
+    list-style: inside url(cake.png);
+}
+
+#orange {
+    list-style: inside url(orange.png);
+}
+
+#egg {
+    list-style: inside url(egg.png);
+}
+
+#icecream {
+    list-style: inside url(icecream.png);
+}

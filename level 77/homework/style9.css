@@ -1,0 +1,21 @@
+/* 9) შექმენით დალაგებული სია თქვენი საყვარელი წიგნების შესახებ, სადაც თითოეული წიგნის ქვეშ იქნება დაულაგებელი სია თავების
+შესახებ, და ორივე სიას გაუწერეთ ერთ ხაზში list-style კუთვნილება ისე, რომ დალაგებულ სიაში გამოიყენოთ upper-roman inside
+და ქვე-სიაში გამოიყენოთ square outside, ასევე ორივე სიას დაუმატეთ საზღვარი, ტექსტის ფერი, უკანა ფონის ფერი და
+კალიგრაფია. */
+
+ol {
+    list-style: upper-roman inside;
+    border: 3px solid rgb(75, 52, 29);
+    color: rgb(230, 199, 167);
+    background-color: rgb(50, 34, 18);
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+ul {
+    list-style: square outside;
+    border: 2px solid rgb(235, 194, 161);
+    color: rgb(60, 38, 17);
+    background-color: rgb(245, 214, 190);
+    font-family: Arial, Helvetica, sans-serif;
+}

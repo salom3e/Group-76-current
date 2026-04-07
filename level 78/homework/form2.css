@@ -1,0 +1,27 @@
+input {
+    font-size: 14px;
+    width: 250px;
+    height: 35px;
+    outline: none;
+    border: 2px solid rgb(220, 220, 220);
+    font-family: sans-serif;
+    margin-left: 60px;
+}
+
+#user {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 15px;
+    width: 80px;
+    height: 35px;
+    background-color: rgb(228, 115, 177);
+    border: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 8px rgb(221, 98, 119);
+    margin-left: 145px;
+    border-radius: 2px;
+    font-family: sans-serif;
+}

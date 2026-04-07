@@ -1,0 +1,25 @@
+/* 10) შექმენით დალაგებული სია მოგზაურობის გეგმებისთვის, სადაც თითოეული ქვეყნის ქვეშ იქნება დაულაგებელი სია ქალაქებზე, და
+გამოიყენეთ list-style შემოკლებული shorthand კუთვნილება ორივე სიაზე ისე, რომ მთავარ სიას ჰქონდეს georgian inside და
+ქვე-სიას ჰქონდეს circle outside, ასევე დაამატეთ ტექსტის ზომა, text-decoration, ტექსტის ფერი, უკანა ფონის ფერი და
+გააკეთეთ hover ეფექტი ისე, რომ მაუსის გადატარებისას შეიცვალოს ყველა li თეგის უკანა ფონის ფერი და ტექსტის ფერი. */
+
+ol {
+    list-style: georgian inside;
+    font-size: 30px;
+    color: rgb(106, 71, 30);
+    background-color: rgb(237, 213, 189);
+    text-decoration: none;
+}
+
+ul {
+    list-style: circle outside;
+    font-size: 25px;
+    color: rgb(248, 229, 188);
+    background-color: rgb(57, 32, 15);
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: black;
+    color: white;
+}

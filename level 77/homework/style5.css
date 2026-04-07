@@ -1,0 +1,14 @@
+/* 5) შექმენით დალაგებული სია ისტორიული მოვლენების შესახებ, სადაც ნუმერაციის სტილი შეცვლილი იქნება რაიმე სურათით და სიას
+გაუწერეთ font-family, შეუცვალეთ სისქე, ტექსტის ზომა, ფერი, ფონის ფერი, და ტექსტი განალაგეთ მაჯვნივ. */
+
+
+ol li {
+    list-style-image: url("swords.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(121, 24, 24);
+    background-color: rgb(204, 200, 200);
+    text-align: right;
+
+}

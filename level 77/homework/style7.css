@@ -1,0 +1,23 @@
+/* 7) შექმენით დალაგებული სია რაიმე რეცეპტის ინსტრუქციის შესახებ, სადაც გამოიყენებთ ერთ ხაზში ჩაწერილ შემოკლებულ shorthand
+კუთვნილებას ნუმერაციის ტიპის და მდებარეობის ერთდროულად განსასაზღვრად, და სიას დაუმატეთ ტექსტის ფერი, უკანა ფონის ფერი,
+ტექსტის ზომა, კალიგრაფია და hover და active ფსევდო-სელექტორები. */
+
+
+ol li {
+    list-style: disc inside;
+    color: rgb(70, 41, 20);
+    background-color: rgb(240, 221, 187);
+    font-size: 25px;
+    font-family: sans-serif;
+    border: 2px solid rgb(57, 33, 11);
+}
+
+li:hover {
+    background-color: rgb(65, 42, 18);
+    color: rgb(236, 220, 193);
+}
+
+li:active {
+    background-color: black;
+    color: white;
+}

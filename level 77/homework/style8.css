@@ -1,0 +1,21 @@
+/* 8) შექმენით დალაგებული სია ქალაქების შესახებ, სადაც თითოეული ელემენტის ნუმერაცია იქნება სურათი და თითოეულ li ელემენტს
+გაუწერეთ საზღვარი, ტექსტის ფერი, უკანა ფონის ფერი, text-decoration და გაცენტრეთ, ხოლო მაუსის გადატარებისას შეიცვალოს
+მათი სტილები. */
+
+ol {
+    list-style-image: url("flag.png");
+}
+
+li {
+    border: 3px solid rgb(30, 37, 94);
+    color: rgb(28, 57, 111);
+    background-color: lightgray;
+    text-decoration: overline dashed rgb(37, 61, 81);
+    text-align: center;
+}
+
+li:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline rgb(206, 206, 242);
+}

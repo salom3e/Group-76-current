@@ -1,0 +1,21 @@
+/* 2) შექმენით დალაგებული სია ყოველდღიური საქმიანობებისთვის, გასტილეთ list-style-type: decimal-leading-zero; კუთვნილებით,
+ერთ-ერთ li თეგში ჩასვით დაულაგებელი სია ქვე-საქმიანობებისთვის და გასტილეთ list-style-type: circle; კუთვნილებით. თქვენს
+სიებს გაუწერეთ ფერი, უკანა ფონის ფერი, ზღვარი, ტექსტის სისქე და ტექსტის ზომა. */
+
+ol li {
+    list-style-type: decimal-leading-zero;
+    color: rgb(243, 164, 177);
+    background-color: rgb(70, 26, 84);
+    border: 3px dashed rgb(255, 222, 222);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+ul li {
+    list-style-type: circle;
+    color: rgb(167, 86, 122);
+    background-color: rgb(255, 222, 222);
+    border: 2px solid rgb(151, 63, 102);
+    font-weight: 400;
+    font-size: 23px;
+}
