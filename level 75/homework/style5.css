@@ -2,3 +2,45 @@
 კუთვნილებით. თითოეულ პროგრამირების ენას ჩაუმატეთ დაულაგებელი სია მისი თვისებებისთვის და გასტილეთ list-style-type:
 circle; კუთვნილებით. თქვენს სიებს გაუწერეთ ფერი, უკანა ფონის ფერი, ზღვარი, ტექსტის სისქე, font-family, ტექსტის ზომა, და
 ეს ყველა კუთვნილება შეუცვლეთ მაშინ როცა რომელიმე li ელემენტთან მიიტანთ კურსორს. */
+
+ol li {
+    list-style-type: lower-roman;
+    background-color: rgb(47, 117, 167);
+    border: 2px solid rgb(29, 43, 56);
+    font-family: sans-serif;
+    color: rgb(28, 51, 76);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+ol li:hover {
+    list-style-type: lower-roman;
+    background-color: rgb(61, 147, 66);
+    border: 3px solid rgb(29, 72, 47);
+    font-family: serif;
+    color: rgb(13, 50, 20);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+
+ul li {
+    list-style-type: circle;
+    background-color: rgb(29, 43, 56);
+    border: 3px dashed rgb(47, 117, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(144, 198, 218);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+ul li:hover {
+    list-style-type: circle;
+    background-color: rgb(38, 72, 28);
+    border: 2px dashed rgb(98, 173, 83);
+    font-family: serif;
+    color: rgb(145, 223, 131);
+    font-weight: 500;
+    font-size: 30px;
+}

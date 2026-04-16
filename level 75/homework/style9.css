@@ -1,2 +1,72 @@
 /* 9) შექმენით დაულაგებელი და დალაგებული სიები ნებისმიერ თემებზე და გატესტეთ რაც შეიძლება მეტი განსხვავებული
 list-style-type კუთვნილების მნიშვნელობები. */
+
+
+.li1 {
+    list-style-type: lower-latin;
+}
+
+.li1:hover {
+    list-style-type: lower-roman;
+}
+
+.li1:active {
+    list-style-type: square;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.li2 {
+    list-style-type: decimal;
+}
+
+.li2:hover {
+    list-style-type: georgian;
+}
+
+.li2:active {
+    list-style-type: upper-alpha;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.li3 {
+    list-style-type: decimal-leading-zero;
+}
+
+.li3:hover {
+    list-style-type: unset;
+}
+
+.li3:active {
+    list-style-type: upper-latin;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.li4 {
+    list-style-type: lower-alpha ;
+}
+
+.li4:hover {
+    list-style-type: none;
+}
+
+.li4:active {
+    list-style-type: upper-roman;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.li5 {
+    list-style-type: lower-greek;
+}
+
+.li5:hover {
+    list-style-type: initial;
+}
+
+.li5:active {
+    list-style-type: inherit;
+}

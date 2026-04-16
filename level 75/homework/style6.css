@@ -2,3 +2,44 @@
 ჩაამატეთ დაულაგებელი სია კონკრეტული რესტორნის მენიუთი, და დაულაგებელი სია გასტილეთ ისეთი კუთვნილებით რომ თითოეულ li
 ელემენტს უკან ეწეროს ოთკუთხედი ნიშანი. თქვენს სიებს გაუწერეთ ფერი, უკანა ფონის ფერი, ზღვარი, ტექსტის სისქე, font-family,
 ტექსტის ზომა, და ეს ყველა კუთვნილება შეუცვლეთ მაშინ როცა რომელიმე li ელემენტს დააჭერთ მაუსით. */
+
+.rest li {
+    list-style: none;
+    background-color: rgb(62, 54, 31);
+    color: rgb(236, 230, 196);
+    border: 3px dashed rgb(239, 233, 196);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.rest li:active {
+    list-style-type: disc;
+    background-color: rgb(136, 119, 67);
+    color: rgb(62, 50, 15);
+    border: 2px dashed rgb(214, 211, 187);
+    font-family: serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+.menu li {
+    list-style: square inside;
+    background-color: rgb(213, 199, 155);
+    color: rgb(55, 43, 25);
+    border: rgb(123, 107, 59);
+    font-family: serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.menu li:active {
+    list-style: circle outside;
+    background-color: rgb(59, 39, 18);
+    color: rgb(173, 152, 119);
+    border: rgb(227, 216, 183);
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}

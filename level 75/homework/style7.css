@@ -2,3 +2,50 @@
 ჰობის ქვეშ ჩაამატეთ დალაგებული სია რომელსაც გასტილევათ ისეთი კუთვნილებით რომ თითოეულ li ელემენტს უკან ეწეროს ქართული ასო
 ანბანის მიხედვით. თქვენს სიებს გაუწერეთ ფერი, უკანა ფონის ფერი, ზღვარი, ტექსტის სისქე, font-family, ტექსტის ზომა და
 გაცენტრეთ, და ეს ყველა კუთვნილება შეუცვლეთ მაშინ როცა რომელიმე li ელემენტთან მიიტანთ კურსორს. */
+
+ul li {
+    list-style-type: circle;
+    color: rgb(146, 122, 169);
+    background-color: rgb(47, 16, 66);
+    border: 4px solid rgb(118, 105, 131);
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+ul li:hover {
+    list-style-type: disc;
+    color: rgb(193, 128, 167);
+    background-color: rgb(103, 39, 93);
+    border: 3px dashed rgb(229, 172, 217);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: serif;
+    text-align: left;
+}
+
+
+
+ol li {
+    list-style-type: georgian;
+    color: rgb(58, 29, 76);
+    background-color: rgb(146, 122, 169);
+    border: 2px solid rgb(51, 38, 59);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: serif;
+    text-align: center;
+}
+
+ol li:hover {
+    list-style-type: circle;
+    color: rgb(124, 67, 112);
+    background-color: rgb(193, 128, 167);
+    border: 1px dashed rgb(103, 39, 93);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: left;
+}
