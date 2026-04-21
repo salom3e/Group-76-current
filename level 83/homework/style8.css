@@ -1,0 +1,20 @@
+/* 8)შექმენი კონტეინერი (width: 500px) და 3 ბლოკი.
+ელემენტები განათავსე ქვემოთ მარჯვენა კითხეში. */
+
+
+.container {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(166, 103, 225);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 70px;
+}
+
+
+.container div {
+    width: 50px;
+    height: 40px;
+    background: rgb(17, 11, 27);
+}
