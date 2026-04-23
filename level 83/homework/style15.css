@@ -1,3 +1,31 @@
 /* 15) გააკეთე 10 ელემენტი ერთ რიგში.
 შემდეგ დაამატე ისეთი სტილი, რომ ეკრანის შემცირებისას ელემენტები ლამაზად გადალაგდნენ რამდენიმე ხაზად. */
 
+
+body {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+
+.parent {
+    height: 600px;
+    width: 600px;
+    background-color: rgb(46, 226, 246);
+    border: 3px solid rgb(24, 32, 42);
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.parent div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

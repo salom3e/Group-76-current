@@ -9,3 +9,42 @@
 
 გამოიყენე align-self თითოეულზე ინდივიდუალურად */
 
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent {
+    height: 700px;
+    width: 700px;
+    background-color: rgb(58, 33, 13);
+    display: flex;
+    gap: 20px;
+}
+
+.parent div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(234, 223, 198);
+}
+
+.first {
+    align-self: end;
+}
+
+.second {
+    align-self: start;
+}
+
+.third {
+    align-self: center;
+}
+
+.fourth {
+    align-self: baseline;
+}

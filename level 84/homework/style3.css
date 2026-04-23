@@ -1,0 +1,59 @@
+/* 3) გაქვს navigation bar:
+
+მარცხნივ არის logo <-- რაიმე პატარა ფოტო
+შუაში ნავიგაციის menu
+მარჯვნივ button 
+
+გამოიყენე flex რომ გაალამაზოტ მაქსიმალურად ნავიგაციის მენიუ
+
+გააკეთე ისე, რომ:
+
+menu-მ დაიკავოს მაქსიმალური დარჩენილი სივრცე
+logo და button დარჩეს თავიანთ ზომაზე
+
+გამოიყენე flex-grow */
+
+
+
+/* body {
+    margin: 0;
+} */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    border: 3px dashed black;
+    background-color: rgb(233, 233, 233);
+}
+
+.img img {
+    height: 150px;
+    margin: 30px;
+}
+
+.ul ul {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    flex-grow: 6;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button button {
+    height: 40px;
+    width: 80px;
+    border-radius: 3px;
+    margin-top: 85px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid rgb(161, 161, 161);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(116, 116, 116);
+}

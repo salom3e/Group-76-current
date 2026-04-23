@@ -6,3 +6,28 @@
 
 გამოიყენე მხოლოდ align-self */
 
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.parent div {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.second {
+    align-self: start;
+}

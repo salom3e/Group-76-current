@@ -1,0 +1,31 @@
+/* 2) შექმენი ერთი დივი.მიეცი ზომები 800px 800px და ბორდერი
+
+თქვენი დვალებაა რომ ამ დივში ჩადოთ 20 ცალი შივლი დივი(მიეცი ზომები და ფერი)
+
+შენი დავალებაა რომ ამ მშობელ დივის საზღვრებს არ დაგაცდნენ შვილი ელემენტები,გატესტე flex-wrap ის სამივე კუთვნილება რომ
+ნახო თითოეულის შედეგი თუ რას აკეთებენ ისინი */
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+    height: 800px;
+    width: 800px;
+    border: 5px solid rgb(55, 27, 115);
+    background-color: rgb(201, 185, 238);
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap-reverse; */
+}
+
+.parent div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(34, 12, 60);
+}
