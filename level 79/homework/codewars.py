@@ -19,4 +19,4 @@ print(multiplication_table(5))
 #             result += "\n"
 #     return result
         
-
+    
