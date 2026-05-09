@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: hsl(206, 47%, 93%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Karla;
+}
+
+.parent {
+    height: 423px;
+    width: 556px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.div1 {
+    background-color: hsl(0, 0%, 100%);
+    height: 196px;
+    width: 556px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div2 {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    height: 227px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    gap: 20px;
+}
+
+.div3 {
+    background-color: hsl(179, 47%, 52%);
+    width: 50%;
+    height: 227px;
+    border-bottom-right-radius: 8px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 21px;
+    color: hsl(179, 62%, 43%);
+}
+
+.p1 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 500;
+}
+
+.p2 {
+    color: hsl(218, 22%, 67%);
+    font-size: 14px;
+}
+
+.divp {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 1.6;
+}
+
+.div2 h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.p3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.p4 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.556);
+}
+
+.p5 {
+    color: rgba(255, 255, 255, 0.807);
+    font-size: 14px;
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 400px;
+    height: 40px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.915);
+    font-family: Karla;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.189);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.div3 h3 {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.p6 {
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.718);
+}
