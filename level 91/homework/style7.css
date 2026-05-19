@@ -1,0 +1,36 @@
+/* 7) შექმენით დივი სადაც იქნება მოთავსებული ერთი ფოტო რომელიც დაფარავს დივს და ერთი ტექსტი --- For Sale,
+
+შენი დავალებაა რომ ფოტოს გადააფარო ზემოდან ეს ტექსტი და აიტანო დივის ზემოთ მარჯვენა კუთხეში */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent {
+    display: flex;
+    width: 670px;
+    height: 300px;
+    position: relative;
+}
+
+img {
+    height: 300px;
+}
+
+.p {
+    position: absolute;
+    /* top: 90px;
+    left: 250px; */
+    bottom: 160px;
+    left: 410px
+}
+
+p {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(38, 68, 130);
+}

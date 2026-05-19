@@ -1,0 +1,38 @@
+/* შექმენთ 4 დივი.მიეცით ზომები 4 ისვე 200PX 200PX და ოთხივეს განსხვავებული ფერი,ამოირჩიეთ ერთ ერთი დივი და ეს დივი გაწიეთ
+მარჯვნივ 105 პიქსელით და ჩამოწიეთ ზემოდან ქვემოთ 65პხ ით */
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    height: 200px;
+    width: 200px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.div1 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+    left: 105px;
+    top: 65px;
+}
+
+.div2 {
+    background-color: rgb(133, 29, 29);
+}
+
+.div3 {
+    background-color: rgb(50, 95, 171);
+}
+
+.div4 {
+    background-color: rgb(78, 123, 78);
+}

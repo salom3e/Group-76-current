@@ -1,0 +1,38 @@
+/* 5)
+<div class="parent">
+    <div class="child"></div>
+</div>
+
+
+დავალება:
+
+child იყოს ზუსტად ცენტრში თავიდან
+მაგრამ ცენტრიდან გადაიტანე:
+მარჯვნივ +40px
+ზემოთ -20px */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(15, 192, 237);
+    position: absolute;
+    top: -20px;
+    left: 40px;
+}
