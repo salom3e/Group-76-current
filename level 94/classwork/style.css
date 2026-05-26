@@ -1,0 +1,33 @@
+/* 1) შექმენით ერთი წითელი დივი სადაც მოათავსებთ ტექსტს "Chat with us"
+გაალამაზეთ და გასტილეთ ეს დივი სურვილისამებრ, body ის მიეცით სიმაღლე 1000vh რომ სქროლი გაუჩნდეს
+
+თქვენი დავალებაა სქტოლვის დროს ეს ელემენტი იყოს აპინული ეკრანის ქვემოთ მარჯვენა კუთხეში მაგრამ მთლად მიტყუპებულიც არ
+იყოს კუთხეში ცოტა მანძილი დატოვეთ
+
+გამოიყენეთ ნასწავლი მასალა */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+div {
+    background-color: rgb(102, 23, 23);
+    color: rgb(241, 229, 216);
+    width: 500px;
+    height: 150px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

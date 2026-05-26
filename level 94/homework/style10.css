@@ -1,0 +1,80 @@
+/* 10) შექმენი ფოტო გალერეა.
+ყოველ სურათზე მარჯვენა ზედა კუთხეში იყოს "NEW"  absolute პოზიციით. */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    position: relative;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+img {
+    width: 200px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.first {
+    background-color: rgba(6, 64, 139, 0.484);
+}
+
+.second {
+    background-color: rgba(71, 94, 3, 0.401);
+}
+
+.third {
+    background-color: rgba(87, 46, 5, 0.719);
+}
+
+.fourth {
+    background-color: rgba(214, 109, 22, 0.727);
+}
+
+.new {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: rgb(182, 33, 33);
+    color: rgb(255, 255, 255);
+    padding: 5px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+    border: 2px dotted rgb(255, 255, 255);
+}

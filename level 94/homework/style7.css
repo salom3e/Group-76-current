@@ -1,0 +1,51 @@
+/* 7)შექმენი პროფილის ბარათი.
+პროფილის ფოტოს კუთხეში პატარა მწვანე წერტილი დაამატე, რომელიც ნიშნავს "online" სტატუსს.
+გამოიყენე:
+parent → relative
+status → absolute */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent {
+    border: 2px solid black;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    position: relative;
+    padding: 10px;
+}
+
+.status {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    top: 1px;
+    right: 5px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
