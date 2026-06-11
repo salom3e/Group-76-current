@@ -1,0 +1,23 @@
+/* 1)შექმენი div (300x300) და დაუყენე background სურათი ისე, რომ:
+
+იყოს ცენტრში
+არ გამეორდეს
+ზომა იყოს contain */
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    background-image: url("cats.png");
+    border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

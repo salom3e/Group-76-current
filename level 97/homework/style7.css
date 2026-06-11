@@ -1,0 +1,29 @@
+/* 7)შექმენი დივი -- 500px 500px
+
+დაამატე შიგნით ავტომობილის ფოტო რომელიც
+არ მეორდება, დაფარავს მთლიან დივს , არის ცენტრში
+
+ამ დივში ჩასვი ერთი ტექსტი ყვითელი ფერის -- NEW!!!! -- და position ის დახმარებით აიტანე ეს ტექსტი ზემოთ მარჯვენა დივის
+კუთხეში */
+
+
+
+div {
+    height: 500px;
+    width: 500px;
+    background-image: url("car.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px dashed rgb(59, 57, 39);
+    position: relative;
+}
+
+p {
+    position: absolute;
+    top: 10px;
+    left: 420px;
+    color: rgb(196, 168, 44);
+    font-weight: 700;
+}
+

@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    display: flex;
+}
+
+.parent div {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink {
+    position: relative;
+    background-color: hsla(328, 100%, 50%, 0.762);
+    top: 60px;
+    left: 200px;
+    z-index: 1;
+}
+
+.blue {
+    position: relative;
+    background-color: hsla(195, 83%, 44%, 0.774);
+    top: 150px;
+    left: 100px;
+    z-index: 2;
+}
+
+.green {
+    position: relative;
+    background-color: hsl(120, 63%, 35%);
+    right: 300px;
+    top: 330px;
+    z-index: 0;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+}

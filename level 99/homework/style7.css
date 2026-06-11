@@ -1,0 +1,24 @@
+/* 7)შექმენი ბარათის (card) დიზაინი.
+hover-ზე ბარათი უნდა:
+
+ოდნავ აიწიოს ზემოთ (translateY)
+
+დაემატოს ჩრდილი */
+
+
+div {
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 223, 171);
+}
+
+div:hover {
+    transform: translateY(-30px);
+    box-shadow: 3px 3px 10px black;
+}

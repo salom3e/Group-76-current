@@ -1,0 +1,19 @@
+/* 4)შექმენი div:
+
+სურათი იყოს ქვედა მარცხენა მხარეს
+
+გამეორდეს y ზე
+
+ზომა იყოს 80px */
+
+
+
+div {
+    background-image: url("claudemonet.jpg");
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+    background-position: bottom left;
+    background-repeat: repeat-y;
+    background-size: 80px;
+}

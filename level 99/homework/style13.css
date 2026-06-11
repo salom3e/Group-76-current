@@ -1,0 +1,10 @@
+/* 13)შექმენი 100x100px კვადრატი.
+დაატრიალე 55deg-ით y ღერძზე */
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transform: rotateY(55deg);
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 55%, 11%);
+    height: 100vh;
+    width: 100%;
+    font-family: Outfit;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 287px;
+    height: 489px;
+    background-color: hsl(214, 50%, 16%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 18px;
+    box-shadow: 0 30px 60px rgba(1, 7, 29, 0.5);
+}
+
+/* ----------------------------------------------------------------------- */
+
+#cube-img {
+    width: 248px;
+    height: 248px;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: row;
+    gap: 90.5px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.icon1 {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.icon1 img {
+    width: 9px;
+    height: 15px;
+}
+
+.icon2 {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+}
+
+.icon2 img {
+    width: 14px;
+    height: 14px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.p1 {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+.p2 {
+    color: hsla(216, 76%, 82%, 0.764);
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+.p3 {
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.p4 {
+    font-size: 13px;
+    color: hsla(216, 76%, 82%, 0.764);
+    font-weight: 300;
+}
+
+.line {
+    width: 250px;
+    height: 1px;
+    border: 1px solid hsla(216, 76%, 82%, 0.078);
+    margin-bottom: -5px;
+
+}
+
+/* ----------------------------------------------------------------------- */
+
+.text3 {
+    display: flex;
+    gap: 12px;
+    margin-left: -60px;
+    align-items: center;
+}
+
+.text3 img {
+    width: 27px;
+    height: 27px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.p5 {
+    font-size: 13px;
+    color: hsla(216, 76%, 82%, 0.764);
+    font-weight: 300;
+}
+
+b {
+    color: rgba(255, 255, 255, 0.775);
+}

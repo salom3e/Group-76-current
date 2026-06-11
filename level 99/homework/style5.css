@@ -1,0 +1,16 @@
+/* 5)შექმენი 200px x 200px კვადრატი.
+
+გადაადგილე:
+
+მარჯვნივ 120px
+
+ქვემოთ 70px
+გამოიყენეთ translate() */
+
+
+div {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    transform: translateX(120px) translateY(70px);
+}

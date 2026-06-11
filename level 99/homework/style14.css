@@ -1,0 +1,16 @@
+/* 14)შექმენი ღილაკი.
+როცა მაუსს მიიტან, 90deg-ით დატრიალდეს. */
+
+
+button {
+    border: 2px solid rgb(75, 36, 75);
+    border-radius: 3px;
+    background-color: rgb(127, 70, 127);
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+button:hover {
+    transform: rotate(90deg);
+}

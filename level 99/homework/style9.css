@@ -1,0 +1,10 @@
+/* 9)შექმენი წითელი ბლოკი.
+გამოიყენე scaleY() და გაზარდე ელემენტი ვერტიკალურად 1.5-ჯერ. */
+
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(84, 26, 26);
+    transform: scaleY(1.5);
+}

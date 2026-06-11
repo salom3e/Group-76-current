@@ -1,0 +1,11 @@
+/* 10)შექმენი 200px x 200px ბლოკი.
+გაადიდე ელემენტი 1.5-ჯერ ორივე მიმართულებით. */
+
+
+div {
+    height: 200px;
+    width: 200px;
+    border: 2px dashed green;
+    background-color: greenyellow;
+    transform: scaleX(1.5) scaleY(1.5);
+}

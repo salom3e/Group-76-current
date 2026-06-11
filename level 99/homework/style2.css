@@ -1,0 +1,10 @@
+/* 2)შექმენი წითელი 150px x 150px ბლოკი.
+გადაადგილე ელემენტი ქვემოთ 80px-ით გამოყენებით. */
+
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(63, 15, 15);
+    transform: translateY(80px);
+}

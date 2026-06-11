@@ -1,0 +1,11 @@
+/* 1)შექმენი 200px x 200px კვადრატი.
+გადაადგილე ელემენტი მარჯვნივ 100px-ით გამოყენებით. */
+
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transform: translateX(100px);
+}
+

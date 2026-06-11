@@ -1,0 +1,10 @@
+/* 3)შექმენი ლურჯი ბლოკი.
+გადაადგილე ელემენტი 'მარცხნივ' 50px-ით. */
+
+
+div {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(47, 182, 255);
+    transform: translateX(-50px);
+}

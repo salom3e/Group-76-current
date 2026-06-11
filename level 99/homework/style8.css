@@ -1,0 +1,10 @@
+/* 8)შექმენი 150px x 150px კვადრატი.მიეცი ფერი
+გამოიყენე scaleX() და გაადიდე ელემენტი ჰორიზონტალურად 2-ჯერ. */
+
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+    transform: scaleX(2);
+}
