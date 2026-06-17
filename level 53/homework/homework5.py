@@ -10,6 +10,8 @@ for i in range(len(numbers)):
         new.append(int(numbers[i]))
 print(new)
 
+# --------------------------------------------------------------
+
 numbers = "0123456789"
 new = []
 

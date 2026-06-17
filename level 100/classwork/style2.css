@@ -1,0 +1,35 @@
+/* 2) შექმენით ერთი დივი 150 x 150, წითელი ფერის
+
+შენი დავალებაა რომ დივმა ჰოვერის დროს --
+
+შეიცვალოს ფერი და გახდეს ლურჯი 2 წამში
+
+დატრიალდეს 400deg ით 5 წამში
+გახდეს მრგვალი 2.5 წამში
+
+ჩამოვიდეს ქვემოთ 100px ით და გავიდეს გვერდით 70px ით 1 წამში(transforms)
+
+ქვემოთ გაუჩნდეს შავი ჩრდილი 6 წამში
+
+-=====
+
+სიჩქარე ქონდეს ისეთი რომ ქონდეს ნელი სტარტი და შემდეგ ჩქარებდოეს
+
+დილეი ქონდეს 2 წამი */
+
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(94, 19, 19);
+    transition: background-color 2s ease-in, transform 5s ease-in, box-shadow 6s ease-in, border-radius 2.5s ease-in;
+    transition-delay: 2s;
+}
+
+div:hover {
+    background-color: rgb(95, 95, 230);
+    box-shadow: 2px 2px 5px black;
+    transform: translate(70px, 100px) rotate(400deg);
+    border-radius: 50%;
+
+}

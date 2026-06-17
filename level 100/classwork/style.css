@@ -1,0 +1,14 @@
+/* 1) შექმენით ფოტო,თქვენი დავალებაა რომ ფოტო დაატრიალოთ 120deg ით ოღონდ ტრიალის ღერძი იყოს ფოტოს ქვემოთ მარჯვენა კუთხეში */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    height: 200px;
+    transform: rotate(120deg);
+    transform-origin: right bottom;
+}

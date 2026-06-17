@@ -1,0 +1,27 @@
+/* 9)შექმენი Navigation Menu.
+hover-ისას:
+
+ლინკი გაიზარდოს.
+შეიცვალოს ფერი.
+ასოებს შორის დაშორება (letter-spacing) გაიზარდოს. */
+
+
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li, ul a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease;
+}
+
+li a:hover {
+    font-size: 35px;
+    color: rgb(224, 46, 141);
+    letter-spacing: 15px;
+}

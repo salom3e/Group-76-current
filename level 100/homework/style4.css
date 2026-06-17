@@ -1,0 +1,69 @@
+/* 4)შექმენი პროდუქტის ბარათი:
+
+ღილაკი თავიდან დამალული იყოს.
+hover-ისას ღილაკი ნელ-ნელა გამოჩნდეს.
+სურათი ოდნავ გაიზარდოს.
+ბარათი ზემოთ აიწიოს.
+
+სიჩქარე ქონდეს: ნელი სტარტი ნელი ენდი */
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: rgb(134, 44, 44);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: 3s ease-in-out;
+}
+
+img {
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+    border: 4px dashed rgb(0, 0, 0);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 3s ease-in-out;
+}
+
+div:hover img {
+    transform: scale(1.2);
+}
+
+button {
+    opacity: 0;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(245, 174, 88);
+    transition: 4s ease-in-out;
+}
+
+div:hover button {
+    opacity: 1;
+}
+
+p {
+    position: relative;
+    top: 130px;
+    left: 30px;
+}
+
+div:hover {
+    transform: translateY(-100px);
+}

@@ -1,0 +1,36 @@
+/* 10)შექმენი Login ფორმა.
+focus-ისას:
+
+Input-ის border შეიცვალოს.
+Input ოდნავ გაიზარდოს.
+Placeholder-ის ფერი შეიცვალოს. */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+form input {
+    width: 250px;
+    height: 21px;
+    border-radius: 5px;
+}
+
+form input:focus {
+    border: 3px dashed rgb(54, 170, 215);
+    transform: scale(1.1);
+    outline: none;
+}
+
+input:focus::placeholder {
+    color: rgb(47, 197, 239);
+}

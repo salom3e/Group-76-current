@@ -1,0 +1,47 @@
+/* 2)შექმენი ბარათი, რომლის სიმაღლე თავიდან 150px-ია.
+hover-ისას:
+
+სიმაღლე გახდეს 300px.
+გამოჩნდეს დამალული ტექსტი.
+ტექსტის გამოჩენაც იყოს transition-ით. (მოიძიეთ ინფორმაცია თუ სხვა ელემენტზე დაჰოვერებისას როგორ უნდა ვიმოქმედოთ სხვა
+ელემენტზე, მაგალითად გვაქ ორი პარაგრაფუ, მაუსს რომ მივიტან პირველთან პირველის ნაცვლად მეორე როგორ შეიცვალოს , დასერჩეთ
+და მოძიეთ) */
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 150px;
+    width: 250px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div:hover {
+    height: 300px;
+    transition: height 1s ease-in;
+}
+
+.p2 {
+    opacity: 0;
+}
+
+div:hover .p2 {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+.p1:hover + .p2 {
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+

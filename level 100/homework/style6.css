@@ -1,0 +1,40 @@
+/* 6)შექმენი 4 სურათის გალერეა.
+ერთ სურათზე hover-ისას:
+
+ეს სურათი გაიზარდოს.
+დანარჩენები დაპატარავდნენ.
+ყველა ცვლილება იყოს smooth(ლამაზი და რბილი).
+
+სიჩქარე ქონდეს: ნელი დასასრული */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 4px solid black;
+    padding: 20px;
+    background-color: rgb(221, 221, 221);
+}
+
+div img {
+    width: 300px;
+    height: 430px;
+    border: 4px solid black;
+    transition: transform 0.5s ease-out;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+}
+
+.img1:hover ~ .imgs {
+    transform: scale(0.8);
+}

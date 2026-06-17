@@ -1,0 +1,38 @@
+/* 7)შექმენი ბლოკი, რომელშიც დამატებითი ინფორმაცია თავიდან დამალულია.
+hover-ისას:
+
+ბლოკი გაფართოვდეს.
+ტექსტი ნელ-ნელა გამოჩნდეს.
+ფონი */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    border: 3px solid black;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    transform: scale(1.1);
+    transition: width 2s ease, background-color 2s ease;
+}
+
+div p {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+div:hover p {
+    opacity: 1;
+}
+
+div:hover {
+    width: 400px;
+    background-color: #49ffff;
+}

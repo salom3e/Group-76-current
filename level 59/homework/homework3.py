@@ -12,4 +12,3 @@
 #     if i >= space:
 #         spaces += 1
         
-# ??
