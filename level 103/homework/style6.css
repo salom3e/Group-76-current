@@ -1,0 +1,34 @@
+/* 6)შექმენი დივი.
+
+იწყებს ეკრანის მარცხენა მხარეს.
+ბოლოში მიდის მარჯვენა მხარეს.
+ანიმაცია იწყება 3 წამის შემდეგ.
+მოძრაობა იყოს თანაბარი (linear).
+განმეორდეს 5-ჯერ. */
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+div {
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(41, 41, 41) 30%, rgb(0, 0, 0) 70%);
+    height: 150px;
+    width: 150px;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(800%);
+    }
+}

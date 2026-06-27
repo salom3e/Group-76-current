@@ -1,0 +1,30 @@
+/* 7)შექმენი ყვითელი წრე.
+
+იწყებს ქვემოდან.
+ანიმაციის ბოლოს გადავიდეს 250px-ით ზემოთ.
+ფერი შეიცვალოს ნარინჯისფერზე.
+ხანგრძლივობა: 4s
+დასრულების შემდეგ დარჩეს ბოლო მდგომარეობაში. */
+
+
+div {
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(255, 244, 96) 30%, rgb(221, 209, 32) 70%);
+    height: 150px;
+    width: 150px;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(550px);
+        background: radial-gradient(circle, rgb(255, 244, 96) 30%, rgb(221, 209, 32) 70%);
+    }
+
+    to {
+        transform: translateY(-250px);
+        background: radial-gradient(circle, rgb(255, 140, 0) 30%, rgb(212, 127, 22) 70%);
+    }
+}

@@ -1,0 +1,29 @@
+/* 2)2. ფერის შეცვლა
+
+შექმენი წრე, რომელიც:
+
+იწყებს წითელი ფერით.
+მთავრდება ლურჯი ფერით.
+ანიმაცია გაგრძელდეს 2s.
+დასრულების შემდეგ დარჩეს ლურჯი */
+
+
+div {
+    border-radius: 50%;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blue;
+    }
+}

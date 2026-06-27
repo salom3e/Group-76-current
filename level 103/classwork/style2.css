@@ -1,0 +1,46 @@
+/* 2) შექმენით დივი როგორც ზემოთ დავალებაში
+
+შეუცვალეთ ფერი , ჩამოწიეთ მხოლოდ ქვემოთ
+
+დაატრიალეთ 90 გრადუსით
+
+მოამრგვალეთ კუთხეები 50პხ ით
+
+გაზარდეთ ზომაში scale
+
+,ანიმაციას ქონდეს ნელი დასასრული
+
+მოხდეს 5 ჯერ 
+
+ხანგრძლივობა ქონდეს 3 წამი
+
+დილეი ქონდეს 2 წამი
+
+ანიმაცია რომმმორჩება საწყის სტილებს აღარ დაუბრუნდეს */
+
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 5;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from {
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+    }
+
+    to {
+        transform: translateY(100px) rotate(90deg) scale(1.4);
+        background-color: black;
+        border-radius: 50px;
+    }
+}

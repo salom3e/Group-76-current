@@ -1,0 +1,35 @@
+/* 9)შექმენი div, რომელიც:
+
+თავიდან არის პატარა (scale(0.5))
+ბოლოში იზრდება (scale(1.5))
+ამავდროულად ადის 500px-ით ზემოთ.
+ფერი იცვლება თეთრიდან წითელზე.
+ხანგრძლივობა: 3s
+ease-in
+უსასრულო გამეორება. */
+
+
+div {
+    transform: scale(0.5);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    from {
+        transform: scale(0.5) translateY(600px);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid black;
+    }
+
+    to {
+        transform: scale(1.5) translateY(-500px);
+        background-color: red;
+    }
+}

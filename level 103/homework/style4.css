@@ -1,0 +1,28 @@
+/* 4)შექმენი ღილაკი, რომელიც:
+
+იწყებს scale(1) ზომით.
+ბოლოში ხდება scale(1.3).
+ანიმაცია მეორდება უსასრულოდ.
+მოძრაობა იყოს ease-in-out. */
+
+
+button {
+    width: 60px;
+    height: 20px;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    transform: scale(1);
+}
+
+@keyframes move {
+    from {
+        transform: scale(1);
+
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}

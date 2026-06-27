@@ -1,0 +1,28 @@
+/* 3). ტექსტის გამოჩენა დაგვიანებით
+
+შექმენი <h1> ელემენტი.
+
+თავიდან იყოს გამჭვირვალე (opacity: 0).
+ბოლოს გახდეს სრულად ხილული.
+ანიმაცია დაიწყოს 2 წამის შემდეგ.
+დასრულების შემდეგ ტექსტი დარჩეს ხილული. */
+
+
+h1 {
+    animation-name: visible;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    opacity: 0;
+}
+
+
+@keyframes visible {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 2;
+    }
+}
